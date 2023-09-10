@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+        <h1>Second Webpage </h1>
+
+        <ul>
+            <% for (let i = 1; i < 6; i++) { %>
+                <li>
+                    <%= i %>
+                </li>
+
+            <%}%>
+        </ul>
+
+        <% if (false) { %>
+            <h1> Hello </h1>
+
+        <% } else { %>
+            <p> It's a Paragraph </p>
+        <% } %>
+
+
+    </body>
+</html>
